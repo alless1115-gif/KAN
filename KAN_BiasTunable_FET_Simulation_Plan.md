@@ -6,14 +6,12 @@
 `Vg-Id` transfer curve의 shape가 `Vd`, back-gate, 또는 추가 split-gate bias에 따라 달라지는 경우를
 KAN simulation으로 연결하기 위한 1차 계획안이다.
 
-교수님 답변 기준 핵심 가정은 아래와 같다.
+핵심 가정은 아래와 같다.
 
 - 메모리 state를 저장하는 소자가 아니다
 - `drain bias` 또는 `additional gate bias`에 따라 Gaussian 형태 또는 유사 Gaussian 형태가 바뀐다
 - 따라서 소자는 `weight memory`가 아니라 `bias-tunable basis source`로 다루는 것이 맞다
 
-
-## PPT 기준으로 본 적용 방향
 
 아래 슬라이드들이 이번 방향과 직접적으로 연결된다.
 
